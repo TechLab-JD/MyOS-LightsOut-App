@@ -1,0 +1,7 @@
+.lo{display:flex;flex-direction:column;gap:10px;height:100%}
+.lo-top{display:flex;justify-content:space-between;align-items:center;font-size:.9rem}
+.lo-top button{padding:6px 12px;border:0;border-radius:7px;background:var(--accent,#3498db);color:#fff;cursor:pointer}
+.lo-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;flex:1}
+.lo-cell{border:1px solid var(--muted-bg,#444);border-radius:8px;background:var(--surface,#1e1e1e);cursor:pointer}
+.lo-cell.on{background:var(--accent2,#f1c40f);box-shadow:0 0 12px var(--accent2,#f1c40f)}
+.lo-msg{text-align:center;font-weight:600;min-height:1.3em;color:var(--accent2,#27ae60)}
